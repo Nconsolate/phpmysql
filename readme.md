@@ -1,96 +1,98 @@
 # v-mysql-php
 
-### ÏîÄ¿¼ò½é
+### é¡¹ç›®ç®€ä»‹
 ```  
-»ùÓÚmysql,php,bootstrap,jQueryÊµÏÖµÄ´íÌâÊÕ¼¯ÏµÍ³¡£
+åŸºäºŽmysql,php,bootstrap,jQueryå®žçŽ°çš„é”™é¢˜æ”¶é›†ç³»ç»Ÿã€‚
 
 ```  
-githubµØÖ·:https://github.com/Nconsolate/phpmysql   
+githubåœ°å€:https://github.com/Nconsolate/phpmysql   
   
-giteeµØÖ·:https://gitee.com/Nconsolate/phpmysql  
+giteeåœ°å€:https://gitee.com/Nconsolate/phpmysql  
 
 
-## 1£¬°²×°
+## 1ï¼Œå®‰è£…
  
  **git clone git@github.com:Nconsolate/phpmysql.git**  
    
- »òÕß  
+ æˆ–è€…  
  
  **git clone git@gitee.com:Nconsolate/phpmysql.git**
 
-## 2£¬Ê¹ÓÃ
-**ÔÚ±¾µØ·þÎñÆ÷»·¾³ÏÂ´ò¿ª¡£¿ÉÔÚjs>index.jsÖÐ½øÐÐÂ·¾¶ÅäÖÃ¡£**
-**·ÃÎÊ http://localhost/index.html**
+## 2ï¼Œä½¿ç”¨
+**åœ¨æœ¬åœ°æœåŠ¡å™¨çŽ¯å¢ƒä¸‹æ‰“å¼€ã€‚å¯åœ¨js>index.jsä¸­è¿›è¡Œè·¯å¾„é…ç½®ã€‚**
+**è®¿é—® http://localhost/index.html**
 
 
 
- **ÔÚÏß²é¿´µØÖ·£º http://47.101.199.141:8085**
+ **åœ¨çº¿æŸ¥çœ‹åœ°å€ï¼š http://47.101.199.141:8085**
 
 
-### ¼¼Êõ
-> **mysqlµÄÁ¬½Ó£¬Êý¾Ý¿âµÄ´´½¨µÈmysql»ù´¡²Ù×÷**
-**phpµÄÓï·¨**
-**mysqlÊý¾ÝµÄÅÅÐòÕ¹Ê¾**
-**bootstrapµÄÊ¹ÓÃ**
-**popperµÄÊ¹ÓÃ**
-**Ò³ÂëµÄÑùÊ½¼°Ò³Ãæ¸üÐÂ**
+### æŠ€æœ¯
+> **mysqlçš„è¿žæŽ¥ï¼Œæ•°æ®åº“çš„åˆ›å»ºç­‰mysqlåŸºç¡€æ“ä½œ**
+**phpçš„è¯­æ³•**
+**mysqlæ•°æ®çš„æŽ’åºå±•ç¤º**
+**bootstrapçš„ä½¿ç”¨**
+**popperçš„ä½¿ç”¨**
+**é¡µç çš„æ ·å¼åŠé¡µé¢æ›´æ–°**
 **ajax**
-**³õÊ¼ÎÞÊý¾ÝÌáÊ¾**
+**åˆå§‹æ— æ•°æ®æç¤º**
 
 
-###mysqlÊý¾Ý¿â
-²Ù×÷mysqlÊý¾Ý¿â½øÐÐ¸üÉ¾¸Ä²é¡£
-Êý¾Ý¿âÒÑ¿ª·Å£¬¾ßÌå²Ù×÷ÔÚctrl>mysql.phpÖÐ²é¿´¡£
+###mysqlæ•°æ®åº“
+æ“ä½œmysqlæ•°æ®åº“è¿›è¡Œæ›´åˆ æ”¹æŸ¥ã€‚
+æ•°æ®åº“å·²å¼€æ”¾ï¼Œå…·ä½“æ“ä½œåœ¨ctrl>mysql.phpä¸­æŸ¥çœ‹ã€‚
 ``` 
-Êý¾Ý¿âÃû£ºerrsave 
-±íÃû£ºmsg
+æ•°æ®åº“åï¼šerrsave 
+è¡¨åï¼šmsg
 ``` 
+
+<table style="border:2px dotted gray;">
+  <th><td>å</td><td>ç±»åž‹ </td><td>é•¿åº¦</td><td>å°æ•°ç‚¹</td><td>ä¸æ˜¯null</td><td>ä¸»é”®</td></th>
+     <tr><td></td><td>id</td> <td>int</td> <td>11</td> <td>0</td><td>âˆš</td> <td>âˆš key1</td></tr>
+     <tr><td></td><td>cont</td><td>varchar </td><td>255</td><td>0</td><td></td><td></td></tr>
+     <tr><td></td><td>s</td><td>varchar </td><td>255</td><td>0</td><td></td><td></td></tr>
+     <tr><td></td><td>cont</td><td>varchar </td><td>255</td><td>0</td><td></td><td></td></tr>
+  </table>
+
+
   
-  | Ãû | ÀàÐÍ | ³¤¶È| Ð¡Êýµã| ²»ÊÇnull|Ö÷¼ü|
-| ----- | ------ | ------ |-----| ----- | 
-| id | int | 11 | 0 | ¡Ì |¡Ì key1 |
-|cont| varchar | 255 | 0 | | |
-|which| varchar | 255 | 0 | | |
-|idea| varchar | 255 | 0 | | |
-
-  
-### ²Ù×÷Á÷
-1.±¾µØÔËÐÐ ·ÃÎÊ±¾µØÊý¾Ý¿â 
-2.±¾µØÔËÐÐ ·ÃÎÊ·þÎñÆ÷Êý¾Ý¿â
-3.·þÎñÆ÷ÔËÐÐ ·ÃÎÊ·þÎñÆ÷Êý¾Ý¿â
+### æ“ä½œæµ
+1.æœ¬åœ°è¿è¡Œ è®¿é—®æœ¬åœ°æ•°æ®åº“ 
+2.æœ¬åœ°è¿è¡Œ è®¿é—®æœåŠ¡å™¨æ•°æ®åº“
+3.æœåŠ¡å™¨è¿è¡Œ è®¿é—®æœåŠ¡å™¨æ•°æ®åº“
 
 
-### ½çÃæÊµÏÖ  
-Ê¹ÓÃbootstrap,popperÊµÏÖ£¬¸´ÔÓ½»»¥Ð§¹ûÊ¹ÓÃjQueryÊµÏÖ¡£
+### ç•Œé¢å®žçŽ°  
+ä½¿ç”¨bootstrap,popperå®žçŽ°ï¼Œå¤æ‚äº¤äº’æ•ˆæžœä½¿ç”¨jQueryå®žçŽ°ã€‚
 
-### ÎÊÌâ¼°½â¾ö
-* ½«mysql²¿Êðµ½·þÎñÆ÷¡£
-        ¼ÇµÃÔÚ¿ØÖÆÌ¨¿ª¶Ë¿Ú¡£
-* ±¾µØÔËÐÐÁ¬½Ó·þÎñÆ÷mysqlÕý³£¡£´úÂë²¿Êðµ½·þÎñÆ÷£¬Á¬½ÓmysqlÕý³£   £¬ÊÓÍ¼²»ÏÔÏÖ¡£  
-    Ô­Òò£º·þÎñÆ÷´î½¨µÄPHP»·¾³Îª7.0£¬²»Ö§³Ömysql¡£
-    ½â¾ö£º¸ü»»·þÎñÆ÷PHP»·¾³  <7.0¼´¿É£¬ÎÒÕâÀï¸ü»»µÄÊÇPHP5.6»·¾³¡£
+### é—®é¢˜åŠè§£å†³
+* å°†mysqléƒ¨ç½²åˆ°æœåŠ¡å™¨ã€‚
+        è®°å¾—åœ¨æŽ§åˆ¶å°å¼€ç«¯å£ã€‚
+* æœ¬åœ°è¿è¡Œè¿žæŽ¥æœåŠ¡å™¨mysqlæ­£å¸¸ã€‚ä»£ç éƒ¨ç½²åˆ°æœåŠ¡å™¨ï¼Œè¿žæŽ¥mysqlæ­£å¸¸   ï¼Œè§†å›¾ä¸æ˜¾çŽ°ã€‚  
+    åŽŸå› ï¼šæœåŠ¡å™¨æ­å»ºçš„PHPçŽ¯å¢ƒä¸º7.0ï¼Œä¸æ”¯æŒmysqlã€‚
+    è§£å†³ï¼šæ›´æ¢æœåŠ¡å™¨PHPçŽ¯å¢ƒ  <7.0å³å¯ï¼Œæˆ‘è¿™é‡Œæ›´æ¢çš„æ˜¯PHP5.6çŽ¯å¢ƒã€‚
 
 
-## Ä¿Â¼
+## ç›®å½•
 ```
-©¦  index.html                           Ö÷Èë¿Ú
-©¦  readme.md
-©¦  
-©À©¤ctrl                                  phpÎÄ¼þ¼Ð
-©¦      change.php                       ¸Ä
-©¦      delete.php                       É¾
-©¦      insert.php                       Ôö
-©¦      mysql.php                        Á¬½Ómysql
-©¦      show.php                         ÏÔÊ¾
-©¦      
-©À©¤img           
-©¦      new_logo.png
-©¦      
-©À©¤js
-©¦      ajax.js                          ×Ô·â×°ajax
-©¦      index.js                         Ö÷js
-©¦      
-©¸©¤libs                                  µÚÈý·½¿â
+â”‚  index.html                           ä¸»å…¥å£
+â”‚  readme.md
+â”‚  
+â”œâ”€ctrl                                  phpæ–‡ä»¶å¤¹
+â”‚      change.php                       æ”¹
+â”‚      delete.php                       åˆ 
+â”‚      insert.php                       å¢ž
+â”‚      mysql.php                        è¿žæŽ¥mysql
+â”‚      show.php                         æ˜¾ç¤º
+â”‚      
+â”œâ”€img           
+â”‚      new_logo.png
+â”‚      
+â”œâ”€js
+â”‚      ajax.js                          è‡ªå°è£…ajax
+â”‚      index.js                         ä¸»js
+â”‚      
+â””â”€libs                                  ç¬¬ä¸‰æ–¹åº“
         bootstrap.css
         bootstrap.js
         jquery.js
