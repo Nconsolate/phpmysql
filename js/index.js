@@ -4,10 +4,10 @@ class Send{
 		this.which = document.getElementById("which");
 		this.idea = document.getElementById("idea");
 		this.btn = document.getElementById("send");
-		this.insertUrl ="http://localhost/xm/ctrl/insert.php";
-		this.showUrl ="http://localhost/xm/ctrl/show.php";
-		this.deleteUrl="http://localhost/xm/ctrl/delete.php";
-        this.changeUrl="http://localhost/xm/ctrl/change.php";
+		this.insertUrl ="http://localhost/ctrl/insert.php";
+		this.showUrl ="http://localhost/ctrl/show.php";
+		this.deleteUrl="http://localhost/ctrl/delete.php";
+        this.changeUrl="http://localhost/ctrl/change.php";
 		this.tbody = document.querySelector("tbody");
 		this.insert = document.getElementById("insert");
 		this.pageUl=document.getElementsByClassName("pagination pagination-sm justify-content-center")[0];
