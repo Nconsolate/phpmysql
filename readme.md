@@ -1,24 +1,101 @@
+# v-mysql-php
 
-│  index.html
+### 项目简介
+```  
+基于mysql,php,bootstrap,jQuery实现的错题收集系统。
+
+```  
+github地址:https://github.com/Nconsolate/phpmysql   
+  
+gitee地址:https://gitee.com/Nconsolate/phpmysql  
+
+
+## 1，安装
+ 
+ **git clone git@github.com:Nconsolate/phpmysql.git**  
+   
+ 或者  
+ 
+ **git clone git@gitee.com:Nconsolate/phpmysql.git**
+
+## 2，使用
+**在本地服务器环境下打开。可在js>index.js中进行路径配置。**
+**访问 http://localhost/index.html**
+
+
+
+ **在线查看地址： http://47.101.199.141:8085**
+
+
+### 技术
+> **mysql的连接，数据库的创建等mysql基础操作**
+**php的语法**
+**mysql数据的排序展示**
+**bootstrap的使用**
+**popper的使用**
+**页码的样式及页面更新**
+**ajax**
+**初始无数据提示**
+
+
+###mysql数据库
+操作mysql数据库进行更删改查。
+数据库已开放，具体操作在ctrl>mysql.php中查看。
+``` 
+数据库名：errsave 
+表名：msg
+``` 
+  
+  | 名 | 类型 | 长度| 小数点| 不是null|主键|
+| ----- | ------ | ------ |-----| ----- | 
+| id | int | 11 | 0 | √ |√ key1 |
+|cont| varchar | 255 | 0 | | |
+|which| varchar | 255 | 0 | | |
+|idea| varchar | 255 | 0 | | |
+
+  
+### 操作流
+1.本地运行 访问本地数据库 
+2.本地运行 访问服务器数据库
+3.服务器运行 访问服务器数据库
+
+
+### 界面实现  
+使用bootstrap,popper实现，复杂交互效果使用jQuery实现。
+
+### 问题及解决
+* 将mysql部署到服务器。
+        记得在控制台开端口。
+* 本地运行连接服务器mysql正常。代码部署到服务器，连接mysql正常   ，视图不显现。  
+    原因：服务器搭建的PHP环境为7.0，不支持mysql。
+    解决：更换服务器PHP环境  <7.0即可，我这里更换的是PHP5.6环境。
+
+
+## 目录
+```
+│  index.html                           主入口
 │  readme.md
 │  
-├─ctrl
-│      change.php
-│      delete.php
-│      insert.php
-│      mysql.php
-│      show.php
+├─ctrl                                  php文件夹
+│      change.php                       改
+│      delete.php                       删
+│      insert.php                       增
+│      mysql.php                        连接mysql
+│      show.php                         显示
 │      
-├─img
+├─img           
 │      new_logo.png
 │      
 ├─js
-│      ajax.js
-│      index.js
+│      ajax.js                          自封装ajax
+│      index.js                         主js
 │      
-└─libs
+└─libs                                  第三方库
         bootstrap.css
         bootstrap.js
         jquery.js
         popper.js
         
+```
+
+
