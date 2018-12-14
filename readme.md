@@ -29,18 +29,18 @@ gitee地址:https://gitee.com/Nconsolate/phpmysql
 
 ### 技术
 > **mysql的连接，数据库的创建等mysql基础操作**
-**php的语法**
-**mysql数据的排序展示**
-**bootstrap的使用**
-**popper的使用**
-**页码的样式及页面更新**
-**ajax**
-**初始无数据提示**
+**php的语法**  
+**mysql数据的排序展示**  
+**bootstrap的使用**  
+**popper的使用**  
+**页码的样式及页面更新**  
+**ajax**  
+**初始无数据提示**  
 
 
-###mysql数据库
-操作mysql数据库进行更删改查。
-数据库已开放，具体操作在ctrl>mysql.php中查看。
+### mysql数据库
+操作mysql数据库进行更删改查。  
+数据库已开放，具体操作在ctrl>mysql.php中查看。 
 ``` 
 数据库名：errsave 
 表名：msg
